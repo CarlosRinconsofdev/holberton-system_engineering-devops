@@ -1,2 +1,2 @@
-!/bin/bash
-chmod 114 /0x01-shell_permissions/hello
+#!/bin/bash
+chmod 114 hello
