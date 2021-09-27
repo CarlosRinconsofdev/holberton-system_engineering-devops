@@ -1,2 +1,2 @@
 #!/bin/bash
-1-1-4 chmod u+x /0x01-shell_basics/hello
+-rwxr-xr-- chmod u+x /0x01-shell_basics/hello
