@@ -1,2 +1,2 @@
-#!bin/bash
+#!/bin/bash
 echo /bini/ls -l | grep -c ^d ='path'
