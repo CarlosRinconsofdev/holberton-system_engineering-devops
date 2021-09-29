@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $PATH '1 - ls | wc -l'
+echo $PATH | tr "/" "\n" | tail -n+2 | wc -l
