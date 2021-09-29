@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $PATH '1 -type d | wc -l'-1 | 
+echo $count '1 -type PATH | wc -l'-1 |
