@@ -1,15 +1,12 @@
 #!/usr/bin/env bash
 # This script is displaying "Best School" 10 times
 n=1
-while : 
+while [ $n -le 10 ];
 do
 printf "Best School\n"
-if [ $n == 9 ]
+if [ $n -eq 9 ]
 then
 echo "Hi"
-elif [ $n == 10 ]
-then
-exit
 fi
 ((n++))
 done
