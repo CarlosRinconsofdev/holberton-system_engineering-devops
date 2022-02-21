@@ -1,18 +1,15 @@
 #!/usr/bin/env bash
 # This script is displaying "Best School" 10 times
 n=1
-while :
+while [ $n -le 8 ];
 do
-echo "Best School\n"
+printf "Best School\n"
 if [ $n -eq 3 ]
 then
 echo "bad luck"
 elif [ $n -eq 6 ]
 then
 echo "good luck"
-elif [ $n -eq 8 ]
-then
-exit
 fi
 ((n++))
 done
