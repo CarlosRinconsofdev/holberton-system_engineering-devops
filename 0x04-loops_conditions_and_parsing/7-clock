@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# This script displays numbers from 1 to 20
+n=0
+while [ $n -le 12 ] 
+do
+echo "Hour: $n"
+m=1
+while [ $m -le 59 ]
+do
+echo "$m"
+((m++))
+done
+((n++))
+done
