@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# This script displays numbers from 1 to 20
+# This script displays numbers of a clock
 n=0
 while [ $n -le 12 ] 
 do
