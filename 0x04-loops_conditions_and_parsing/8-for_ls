@@ -4,5 +4,5 @@
 com="$(ls)"
 for ls in $com
 do
-echo $ls | cut -d'-' -f2
+echo "$ls" | cut -d'-' -f2
 done
