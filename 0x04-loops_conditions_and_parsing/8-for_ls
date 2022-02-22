@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # This script displays The content of the current directory
-# In a list format
+#+ In a list format
 com="$(ls)"
 for ls in $com
 do
