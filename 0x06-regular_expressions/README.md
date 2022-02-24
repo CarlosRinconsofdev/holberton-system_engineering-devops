@@ -1,0 +1,1 @@
+# Hello World, this is a new bash project. 0x06. Regular expression
