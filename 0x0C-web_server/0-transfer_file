@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+scp ./some_page.html 3901-web-01_ubuntu_54.174.227.184:/home/nat/holbertonschoolrepos/holberton-system_engineering-devops/0x0C-web_server/some_page.html
