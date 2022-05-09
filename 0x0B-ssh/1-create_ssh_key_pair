@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# This script is doing to Create an SSH key pair
+ssh-keygen -b 4096 -f school -N betty
