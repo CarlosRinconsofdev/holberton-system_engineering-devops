@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# This script is doing a Client configuration file
+
+Host ubuntu@54.174.227.184
+  HostName 54.174.227.184
+  user ubuntu
+  IdentityFile ~/.ssh/school
+  passwordAuthentication no
