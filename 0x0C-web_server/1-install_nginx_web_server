@@ -16,4 +16,4 @@ echo "server {
 
 sudo service nginx start
 
-echo "Hello World" > /var/www/html/carlos/index.html;
+echo "Hello World!" > /var/www/html/carlos/index.html;
