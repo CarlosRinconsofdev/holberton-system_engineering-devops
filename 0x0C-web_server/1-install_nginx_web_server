@@ -3,5 +3,17 @@
 sudo apt-get update -y
 sudo apt-get upgrade -y
 sudo apt-get install nginx -y
-echo "Hello World" > /var/www/html/index.html
+
+sudo mkdir -p /var/www/html/carlos
+
+unlink /etc/nginx/sites-enabled/default
+
+echo "server {
+    listen 80 default_server;
+    index index.html;
+    root /var/www/html/carlos;
+    }" > /etc/nginx/conf.d/carlosra.tech.conf
+
 sudo service nginx start
+
+echo "Hello World" > /var/www/html/carlos/index.html;
