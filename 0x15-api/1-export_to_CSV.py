@@ -1,22 +1,22 @@
 #!/usr/bin/python3
+
 """
-Export to CSV
 """
 from requests import get
 from sys import argv
 
 
 if __name__ == '__main__':
-    user_id = argv[1]
-    url = 'https://jsonplaceholder.typicode.com/users/{}'.format(user_id)
+    USER_ID = argv[1]
+    url = 'https://jsonplaceholder.typicode.com/users/{}'.format(USER_ID)
     response = get(url)
-    username = response.json().get('username')
+    USERNAME = response.json().get('username')
 
-    url = 'https://jsonplaceholder.typicode.com/users/{}/todos'.format(user_id)
+    url = 'https://jsonplaceholder.typicode.com/users/{}/todos'.format(USER_ID)
     response = get(url)
     tasks = response.json()
-    with open('{}.csv'.format(user_id), 'w') as file:
-        for task in tasks:
+    with open('{}.csv'.format(USER_ID), 'w') as file:
+        for TASK in tasks:
             file.write('"{}","{}","{}","{}"\n'
-                       .format(user_id, username, task.get('completed'),
-                               task.get('title')))
+                       .format(USER_ID, USERNAME, TASK.get('completed'),
+                               TASK.get('title')))
