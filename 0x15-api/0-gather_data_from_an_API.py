@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-from requests import get
 from sys import argv
+from requests import get
 
 
 if __name__ == '__main__':
