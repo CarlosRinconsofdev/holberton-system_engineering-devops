@@ -1,7 +1,6 @@
 #!/usr/bin/python3
-
-"""
-"""
+"""Extend you Python script to csv format"""
+import csv
 from requests import get
 from sys import argv
 
